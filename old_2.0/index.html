@@ -1,0 +1,65 @@
+<html>
+<title>Vim Cheat Sheat for Programmers by Michael Pohoreski</title>
+<body>
+
+<p>Update: Version 2.0 is up!  There are now 4 versions to chose from:<br>
+(If you are wondering what the differences are between the screen and print:  the screen has less color variations, and no gradients to make it easier to read.)</p>
+<!--
+<p>Background: I couldn't find a good Vim cheat sheet that:
+<ul>
+<li>Listed all the useful Vim configuation/settings in one place that a programmer would be interested in using, and </li>
+<li>Listed every Ctrl key combination so you could tell which keys were available for your own mapping(s).</li>
+</ul>
+Solution: So after looking at the Vim source, I made my own cheat sheet.  The top half lists all the keys, the bottom half is organized by categories with bold entries designating common tasks.  The red strike-out text above the keys show all the Ctrl keys that Vim doesn't recognize - you can't map Caps to your favorite command(s) for example.
+</p>
+-->
+<ul>
+<li>One designed for on-screen reading: <a href="vim_cheat_sheet_for_programmers_screen.pdf">PDF</a>  (<a href="vim_cheat_sheet_for_programmers_screen.xlsx">Excel 2011 source</a>),</li>
+<li>One designed for hard-copy reading: <a href="vim_cheat_sheet_for_programmers_print.pdf">PDF</a> (<a href="vim_cheat_sheet_for_programmers_print.xlsx">Excel 2011 source</a>),</li>
+<li>One designed for monochrome printing: <a href="vim_cheat_sheet_for_programmers_bnw.pdf">PDF</a> (<a href="vim_cheat_sheet_for_programmers_bnw.xlsx">Excel 2011 source</a>), and</li>
+<li>One designed for Red/Green color bindness -- a "Blue" theme <a href="vim_cheat_sheet_for_programmers_colorblind.pdf">PDF</a> (<a href="vim_cheat_sheet_for_programmers_colorblind.xlsx">Excel 2011 source</a>).</li>
+ 
+</ul>
+<p>The color coded Legend / Keys helps provide guidance for your experience level.<p>
+<ul>
+<li> <span style="background-color: #008000"><font color="#FFFFFF">&nbsp; Green &nbsp;</font></span> = Essential </li>
+<li> <span style="background-color: #FFFF00">&nbsp; Yellow &nbsp;</span> = Basic</li>
+<li> <span style="background-color: #FF8000">&nbsp; Orange &nbsp;</span> / <span style="background-color: #0000FF"><font color="#FFFFFF">Blue</font></span> = Advanced</li>
+<li> <span style="background-color: #FF0000">&nbsp; Red &nbsp;</span> = Expert</li>
+</ul>
+<p>If you don't like this version (I'd love to hear why) try these, you may find them more to your liking...</p>
+<ul>
+<li> <a href="http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html">http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html</a>
+<li> <a href="http://tnerual.eriogerg.free.fr/vim.html">http://tnerual.eriogerg.free.fr/vim.html</a>
+<li> <a href="http://www.lagmonster.org/docs/vi.html">http://www.lagmonster.org/docs/vi.html</a>
+<li> <a href="http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html">http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html</a>
+</ul>
+<p>Thanks to all the redditors for the feedback! &nbsp;~ Michael</p>
+<hr>
+The on-screen 150 DPI .png version is shown...
+    <img width="100%" src="vim_cheat_sheet_for_programmers_screen.png">
+<br>
+<hr>
+The color hard-copy 300 DPI .png version: 
+    <img width="100%" src="vim_cheat_sheet_for_programmers_print.png">
+<hr>
+The monochrome hard-copy 300 DPI .png version: 
+    <img width="100%" src="vim_cheat_sheet_for_programmers_bnw.png">
+<hr>
+An color blind hard-copy 150 DPI .png version: 
+    <img width="100%" src="vim_cheat_sheet_for_programmers_colorblind.png">
+</p>
+<hr>
+=== Vim Rants ===<br>
+<br>
+Vim has 4 <font color="#FF0000">bugs</font>...
+<ul>
+<li>Unable to map Caps lock key, Ctrl-1, Ctrl-Shift-1, Ctrl-Alt-Shift-1, etc. !</li>
+<li>Unable to distinguish between TAB and Ctrl-I, ESC and Ctrl-[ !  Any _modern_ editor can tell the diffeence.  It is not 1970 anymore people!</li>
+<li><span style="background-color: #FFFF00">:set list</span> doesn't work for displaying all whitespace with a seperate character, i.e., listchars is missing an <span style="background-color: #FFFF00">whitespace:+</span> option.</li>
+<li>The cursor movement keys <span style="background-color: #FFFF00">h j k l</span> are literally hard-coded throughout the source -- which also effects the netrw :Explore file browser.  A user should be able to tell Vim what their 4 basic movement keys are, and ALL commands & Plugins should use THAT.  The <font color="#00C0FF">PROPER</font> way to write code is to translate key presses into an enumeration, i.e. CMD_MOVE_UP, CMD_MOVE_DOWN, etc, and use THAT in your logic, NOT if (cmd == 'h') ....</li>
+</ul>
+Othe then that, Vim is a beautiful code editor!
+</body>
+</html>
+
