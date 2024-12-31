@@ -4,18 +4,19 @@ When I was learning Vim I wanted to know a few things:
 
 * How are keys grouped by functionality?
 * What keys are free to re-use?
-* How do I set sane defaults for code?
+* How do I set sane defaults for editing code?
+
+## Screen (150 dpi)
 
 ![vim_cheat_sheet_for_programmers_print_150dpi.png](vim_cheat_sheet_for_programmers_print_150dpi.png)
 
+## Print (600 dpi)
+
+* [vim_cheat_sheet_for_programmers_print_600dpi.png](vim_cheat_sheet_for_programmers_print_600dpi.png)
+
 The color coded Legend / Keys helps provide guidance for your experience level.
 
-<pre>
-<span color="green" >Green         </span>= Essential
-<span color="yellow">Yellow        </span> = Basic
-<span color="orange">Orange</span> / <span color="blue">Blue</span> = Advanced
-<span color="red"   >Red</span>           = Expert
-</pre>
+![Legend](legend.png)
 
 # Older Versions
 
