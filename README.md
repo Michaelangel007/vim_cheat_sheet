@@ -33,9 +33,11 @@ The color coded Legend / Keys helps provide guidance for your experience level.
 * [2.0 pdf](old_2.0/vim_cheat_sheet_for_programmers_print.png)
 * [2.0 xls](old_2.0/vim_cheat_sheet_for_programmers_print.xlsx)
 
-# Other references
+# Other cheat sheets / references
 
 * http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
 * http://tnerual.eriogerg.free.fr/vim.html
 * http://www.lagmonster.org/docs/vi.html
 * http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html
+* https://vim.rtorr.com/
+* https://devhints.io/vim
